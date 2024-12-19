@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spain Travel Blog</title>
+    <link rel="stylesheet" href="Spain.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+            </div>
+            <h2>Welcome to my blog</h2>
+            <div class="nav-links">
+                <a href="#">How</a>
+                <button class="btn">Read</button>
+            </div>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>My Spain Blog</h1>
+        <button class="btn">Read More</button>
+    </div>
+
+    <div class="featured-posts">
+        <div class="featured-post">
+            <img src="mountain-7315961_1280.jpg" alt="Coastal landscape"/>
+            <div class="post-content">
+                <h3 class="post-title">Top 10 Places to Go</h3>
+                <p class="post-date">5 janvier 2024</p>
+            </div>
+        </div>
+        <div class="featured-post">
+            <img src="spanish-desserts-churros-con-chocolate-pinterest.jpg.webp" alt="Coffee and pastries"/>
+            <div class="post-content">
+                <h3 class="post-title">Best Cafes and Pastries</h3>
+                <p class="post-date">12 janvier 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <h2 class="section-title">Food</h2>
+        <span></span>
+        <span></span>
+
+        <p class="section-description">Discover the best Spanish dishes of all</p>
+        <span></span>
+        
+        <span></span>
+        <span></span>
+
+
+
+        <button class="btn">Learn More</button>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="posts-grid">
+            <div class="post-card">
+                <img src="télécharger (2).jpg" alt="Food"/>
+                <div class="post-content">
+                    <h3 class="post-title">Recipes</h3>
+                    <p class="post-date">15 janvier 2024</p>
+                </div>
+            </div>
+            <div class="post-card">
+                <img src="télécharger (4).jpg" alt="Cheese"/>
+                <div class="post-content">
+                    <h3 class="post-title">Best Dishes</h3>
+                    <p class="post-date">18 janvier 2024</p>
+                </div>
+            </div>
+            <div class="post-card">
+                <img src="historic-center-8044946_1280.webp" alt="Restaurant"/>
+                <div class="post-content">
+                    <h3 class="post-title">Restaurants</h3>
+                    <p class="post-date">20 janvier 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Travel</h2>
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+        <p class="section-description">Everything you need to know to have the best trip</p>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <button class="btn">Read More</button>
+
+        <div class="posts-grid">
+            <div class="post-card">
+                <img src="sunset-5560658_640.jpg" alt="Beach"/>
+                <div class="post-content">
+                    <h3 class="post-title">Best Beaches in Spain</h3>
+                    <p class="post-date">22 janvier 2024</p>
+                </div>
+            </div>
+            <div class="post-card">
+                <img src="gleneagles-hotel-3434945_640.jpg" alt="Hotel"/>
+                <div class="post-content">
+                    <h3 class="post-title">Hotels</h3>
+                    <p class="post-date">25 janvier 2024</p>
+                </div>
+            </div>
+            <div class="post-card">
+                <img src="télécharger (3).jpg" alt="Tourist Attractions"/>
+                <div class="post-content">
+                    <h3 class="post-title">Best Tourist Attractions in Spain</h3>
+                    <p class="post-date">28 janvier 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="./Bernard Anne-gaelle.png" alt="Profile"/>
+        <p>I would like to travel to Spain this summer. Discover the culture, the language, the food and more</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelectorAll('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.forEach(nav => nav.classList.toggle('active'));
+        });
+    </script>
+</body>
+</html>
